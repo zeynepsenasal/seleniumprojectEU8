@@ -50,5 +50,10 @@ public class  BasicNavigations{
         currentURL= driver.getCurrentUrl();
         System.out.println("currentURL = " + currentURL);
 
+        driver.close();
+
+        driver.quit(); //we cannot execute more codes after this statement
+        //If we run
+
     }
 }
