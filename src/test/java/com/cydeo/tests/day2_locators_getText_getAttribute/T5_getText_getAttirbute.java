@@ -28,8 +28,19 @@ public class T5_getText_getAttirbute {
             System.out.println("Header Text Verification FAILED");
         }
 
+        //4- Locate “First name” input box
+        WebElement firstNameInput = driver.findElement(By.name("firstname"));
 
+        String expectedPlaceHolder= "first name";
+        String actualPlaceholder = firstNameInput.getAttribute("placeholder");
 
+        if(expectedPlaceHolder.equals(actualPlaceholder)){
+            System.out.println("Placeholder verification PASSED");
+        }else{
+            System.out.println("Placeholder verification PASSED");
+        }
+
+        driver.close();
 
 
 
