@@ -1,4 +1,4 @@
-package com.cydeo.tests.day5_testNG_intro_dropdowns;
+package com.cydeo.tests.day6_alerts_iframes_windows;
 
 import com.cydeo.Utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class T5_DropdownTask {
+public class DropdownTask {
     WebDriver driver;
     @BeforeMethod
     public void setUp(){
